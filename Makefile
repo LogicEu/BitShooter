@@ -1,6 +1,6 @@
 
 CC=gcc
-SRC=*.c
+SRC=src/*.c
 EXE=BitShooter
 STD=-std=c99
 WFLAGS=-Wall -Wextra

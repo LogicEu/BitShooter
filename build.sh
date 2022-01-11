@@ -1,6 +1,6 @@
 #!/bin/bash
 
-src=*.c
+src=src/*.c
 cc=gcc
 exe=BitShooter
 

@@ -6,6 +6,6 @@ uniform vec2 u_resolution;
 void main() 
 {
 	vec2 uv = gl_FragCoord.xy / u_resolution.y;
-	vec3 color = vec3(uv.x, uv.y, cos(u_time));
-	FragColor = vec4(color, 1.0);
+	vec3 color = vec3(uv.x, uv.y, (cos(u_time) + 1.0) * 0.5);
+	FragColor = vec4(color, 0.5);
 }
